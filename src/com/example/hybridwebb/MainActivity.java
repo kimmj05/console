@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 			Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT);
 		}
 	}
-	
+	 
 	class MyWebViewClient extends WebViewClient{
 		@Override
 		public boolean shouldOverrideUrlLoading(WebView view, String url) {
